@@ -1,9 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Ignorer les fichiers de dépendances
 /node_modules
 /.pnp
 .pnp.js
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers liés à Git
+.git
+
+# Ignorer les fichiers temporaires ou système
+.DS_Store
+
 
 # testing
 /coverage
@@ -21,3 +31,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
